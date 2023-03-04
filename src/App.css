@@ -14,7 +14,8 @@
 
 .header {
     grid-area: h;
-    background-color: mediumspringgreen;
+    background-color: mediumseagreen;
+    margin: 10px 0 10px 10px;
 }
 
 .header img {
@@ -23,12 +24,14 @@
 
 .nav {
     grid-area: n;
-    background-color: palevioletred;
+    background-color: mediumseagreen;
+    margin: 10px 10px 0 10px;
 }
 
 .content {
     grid-area: c;
     background-color: coral;
+    margin: 10px 0 0 10px;
 }
 
 .content img {
