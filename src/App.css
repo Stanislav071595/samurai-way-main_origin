@@ -12,29 +12,7 @@
             "n c c";
 }
 
-.header {
-    grid-area: h;
-    background-color: mediumseagreen;
-    margin: 10px 0 10px 10px;
-}
 
-.header img {
-    width: 20px;
-}
 
-.nav {
-    grid-area: n;
-    background-color: mediumseagreen;
-    margin: 10px 10px 0 10px;
-}
 
-.content {
-    grid-area: c;
-    background-color: coral;
-    margin: 10px 0 0 10px;
-}
 
-.content img {
-    width: 700px;
-    margin: auto;
-}
