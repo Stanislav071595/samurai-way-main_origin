@@ -12,7 +12,16 @@
             "n c c";
 }
 
+.app-wrapper-content {
+    grid-area: c;
+    background-color: coral;
+    margin: 10px 0 0 10px;
+}
 
+.app-wrapper-content img {
+    width: 700px;
+    margin: auto;
+}
 
 
 
