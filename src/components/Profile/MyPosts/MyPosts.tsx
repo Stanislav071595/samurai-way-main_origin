@@ -5,10 +5,13 @@ import {Post} from "./Post/Post";
 export const MyPosts = () => {
     return (
 
-        <div>
-            My posts
+        <div className={ps.postsBlock}>
+            <h3>My posts</h3>
             <div>
-                New Post
+                <textarea></textarea>
+            </div>
+            <div>
+                <button>Add post</button>
             </div>
             <Post message="How are you?" like={39}/>
             <Post message="How old are you?" like={26}/>
