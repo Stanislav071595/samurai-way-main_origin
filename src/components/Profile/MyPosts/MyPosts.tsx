@@ -3,6 +3,13 @@ import ps from './MyPosts.module.css';
 import {Post} from "./Post/Post";
 
 export const MyPosts = () => {
+
+    let postData = [
+        {id: 1, post: "How are you?", likesCount: 39},
+        {id: 2, post: "How old are you?", likesCount: 26},
+        {id: 3, post: "What is your name?", likesCount: 19},
+    ]
+
     return (
 
         <div className={ps.postsBlock}>
@@ -13,9 +20,9 @@ export const MyPosts = () => {
             <div>
                 <button>Add post</button>
             </div>
-            <Post message="How are you?" like={39}/>
-            <Post message="How old are you?" like={26}/>
-            <Post message="What is your name?" like={19}/>
+            <Post message={postData[0].post} like={postData[0].likesCount} />
+            <Post message={postData[1].post} like={postData[1].likesCount}/>
+            <Post message={postData[2].post} like={postData[2].likesCount}/>
         </div>
     )
 }
